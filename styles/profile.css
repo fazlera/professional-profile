@@ -57,8 +57,8 @@ nav a {
   background-color: #fff8f3;
   /* background-image: url(/images/developer.png); */
   background-repeat: no-repeat;
-  background-image: url(/images/header_bg.png);
-  background-position: bottom right;
+  background-image: url(/images/header_bg.png), url(/images/developer.png);
+  background-position: bottom right, top left;
 }
 
 .banner {
@@ -66,9 +66,7 @@ nav a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-image: url(/images/developer.png);
-  background-repeat: no-repeat;
-  background-size: contain;
+  /* background-image: url(/images/developer.png); */
 }
 .banner-contant {
   width: 560px;
@@ -188,7 +186,9 @@ footer {
   margin-top: 100px;
   padding: 130px 230px;
   justify-content: space-around;
-  
+}
+.section-title-footer {
+  font-size: 85px;
 }
 .section-description-footer {
   color: #929292;
@@ -196,28 +196,28 @@ footer {
   font-weight: 400;
   width: 590px;
 }
-.footer-column{
-    width: 50%;
-
+.footer-column {
+  width: 50%;
 }
-.contact input, textarea{
-    display: block;
-    margin-bottom: 25px;
-    padding: 18px 35px;
-    color: #757575;
-    border-radius: 5px;
-    background-color: #fff;
-    border: 0;
+.contact input,
+textarea {
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 35px;
+  color: #757575;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 0;
 }
-.contact input{
-    width: 100%;
+.contact input {
+  width: 100%;
 }
-.btn-primary-footer{
-    border: 0;
-    border-radius: 5px;
-    background: #fd6e0a;
-    font-size: 20px;
-    font-weight: 700;
-    padding: 15px 35px;
-    
+#btn-primary-footer {
+  border: 0;
+  border-radius: 5px;
+  background: #fd6e0a;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 35px;
+  color: #fff;
 }
